@@ -8,6 +8,7 @@ import Blog from './pages/Blog';
 import Portfolio from './pages/Portfolio';
 import Netflix from './pages/Netflix';
 import Navbar from './components/Navbar';
+import Slider from './components/Slider';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -17,13 +18,14 @@ const router = createBrowserRouter([
   { path: '/blog', element: <Blog /> },
   { path: '/portfolio', element: <Portfolio /> },
   { path: '/netflix', element: <Netflix /> },
+  { path: '/slider', element: <Slider /> },
 ]);
 
 root.render(
   <StrictMode>
-<Slider />
-    
-<Navbar />
+    <Slider />
+
+    <Navbar />
     <RouterProvider router={router} />
   </StrictMode>
 );

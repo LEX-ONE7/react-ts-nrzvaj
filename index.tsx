@@ -7,6 +7,7 @@ import App from './App';
 import Blog from './pages/Blog';
 import Portfolio from './pages/Portfolio';
 import Netflix from './pages/Netflix';
+import Navbar from './components/Navbar';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -20,26 +21,8 @@ const router = createBrowserRouter([
 
 root.render(
   <StrictMode>
-    <nav className="navbar navbar-dark bg-dark">
-      <ul>
-        <li>
-          <a href="/">Accueil</a>
-        </li>
-
-        <li>
-          <a href="/blog">Blog</a>
-        </li>
-
-        <li>
-          <a href="/portfolio">Portfolio</a>
-        </li>
-
-        <li>
-          <a href="/netflix">Netflix</a>
-        </li>
-      </ul>
-    </nav>
-
+    
+<Navbar />
     <RouterProvider router={router} />
   </StrictMode>
 );

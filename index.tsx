@@ -20,22 +20,26 @@ const router = createBrowserRouter([
 
 root.render(
   <StrictMode>
-    <nav className="navbar navbar-primary bg-dark">
+    <nav className="navbar navbar-dark bg-dark">
       <ul>
         <li>
           <a href="/">Accueil</a>
         </li>
+
         <li>
           <a href="/blog">Blog</a>
         </li>
+
         <li>
           <a href="/portfolio">Portfolio</a>
         </li>
+
         <li>
           <a href="/netflix">Netflix</a>
         </li>
       </ul>
     </nav>
+
     <RouterProvider router={router} />
   </StrictMode>
 );

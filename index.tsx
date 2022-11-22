@@ -21,6 +21,7 @@ const router = createBrowserRouter([
 
 root.render(
   <StrictMode>
+<Slider />
     
 <Navbar />
     <RouterProvider router={router} />

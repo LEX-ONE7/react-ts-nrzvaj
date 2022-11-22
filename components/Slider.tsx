@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 
 import 'swiper/css/navigation';
 
-import './styles.css';
+import '../src/styles.css';
 
 // import required modules
 

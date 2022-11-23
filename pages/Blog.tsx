@@ -1,6 +1,8 @@
 import * as React from 'react';
 import Card from '../components/Card';
 
+
+
 const Blog = () => {
   const [data, setData] = React.useState([]);
 
@@ -9,6 +11,7 @@ const Blog = () => {
       .then((response) => response.json())
       .then((json) => setData(json));
   }, []);
+
 
   return (
     <div>

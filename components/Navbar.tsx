@@ -65,13 +65,18 @@ const Navbar = () => (
               <ul className="dropdown-menu dropdown-menu-dark">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Accueil
+                    Portfolio
                   </a>
                 </li>
 
                 <li>
                   <a className="dropdown-item" href="#">
                     Blog
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Netflix
                   </a>
                 </li>
 
@@ -82,7 +87,7 @@ const Navbar = () => (
 
                 <li>
                   <a className="dropdown-item" href="#">
-                    Portfolio
+                    Next
                   </a>
                 </li>
               </ul>

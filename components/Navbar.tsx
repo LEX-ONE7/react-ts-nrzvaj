@@ -44,12 +44,6 @@ const Navbar = () => (
               </a>
             </li>
 
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
-            </li>
-
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -59,7 +53,7 @@ const Navbar = () => (
                 aria-expanded="false"
               >
                 {' '}
-                Projets{' '}
+                My Projects{' '}
               </a>
 
               <ul className="dropdown-menu dropdown-menu-dark">
@@ -102,7 +96,7 @@ const Navbar = () => (
               aria-label="Search"
             />
 
-            <button className="btn btn-success" type="submit">
+            <button className="btn btn-info" type="submit">
               Search
             </button>
           </form>

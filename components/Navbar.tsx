@@ -70,7 +70,7 @@ const Navbar = () => (
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Netflix 2
+                    Netflix II
                   </a>
                 </li>
 

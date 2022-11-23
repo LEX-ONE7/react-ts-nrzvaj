@@ -47,7 +47,7 @@ const Slider = () => {
         ></div>
 
         <SwiperSlide>
-          <div className="title" data-swiper-parallax="-300">
+          <div className="title " data-swiper-parallax="-300">
             Mon Portfolio
           </div>
 

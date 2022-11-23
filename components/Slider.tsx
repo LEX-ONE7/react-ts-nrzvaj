@@ -66,8 +66,8 @@ const Slider = () => {
               tincidunt ut libero. Aenean feugiat non eros quis feugiat.
             </p>
           </div>
-          <a className="btn btn-info" href="/pages/Portfolio">
-            Lien vers mon portfolio
+          <a className="btn btn-info" href="/Portfolio">
+            Lien vers mon Portfolio
           </a>
         </SwiperSlide>
 
@@ -91,6 +91,9 @@ const Slider = () => {
               tincidunt ut libero. Aenean feugiat non eros quis feugiat.
             </p>
           </div>
+          <a className="btn btn-info" href="/Blog">
+            Lien vers mon Blog
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
@@ -113,6 +116,9 @@ const Slider = () => {
               tincidunt ut libero. Aenean feugiat non eros quis feugiat.
             </p>
           </div>
+          <a className="btn btn-info" href="/Netflix">
+            Lien vers mon Netflix II
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

@@ -58,18 +58,18 @@ const Navbar = () => (
 
               <ul className="dropdown-menu dropdown-menu-dark text-center">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/Portfolio">
                     Mon Portfolio
                   </a>
                 </li>
 
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/Blog">
                     Mon Blog
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/Netflix">
                     Netflix II
                   </a>
                 </li>

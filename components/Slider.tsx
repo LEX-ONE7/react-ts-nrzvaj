@@ -19,15 +19,6 @@ import '../src/styles.css';
 import { Parallax, Pagination, Navigation } from 'swiper';
 
 const Slider = () => {
-  const [data, setData] = React.useState([]);
-
-  React.useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/posts')
-      .then((response) => response.json())
-
-      .then((json) => setData(json));
-  }, []);
-
   return (
     <div>
       <Swiper
@@ -50,14 +41,14 @@ const Slider = () => {
           className="parallax-bg"
           style={{
             'background-image':
-              'url(https://swiperjs.com/demos/images/nature-1.jpg)',
+              'url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/0/d/3/0d32123a56_50034121_galaxie-andromede-03.jpg)',
           }}
           data-swiper-parallax="-23%"
         ></div>
 
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Slide 1
+            PORTFOLIO
           </div>
 
           <div className="subtitle" data-swiper-parallax="-200">
@@ -79,7 +70,7 @@ const Slider = () => {
 
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Slide 2
+            BLOG
           </div>
 
           <div className="subtitle" data-swiper-parallax="-200">
@@ -101,7 +92,7 @@ const Slider = () => {
 
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Slide 3
+            NETFLIX
           </div>
 
           <div className="subtitle" data-swiper-parallax="-200">
@@ -121,12 +112,6 @@ const Slider = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-
-      {JSON.stringify(data)}
-
-      <Slider />
-
-      <Slider />
     </div>
   );
 };

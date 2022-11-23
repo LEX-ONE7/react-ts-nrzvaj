@@ -12,7 +12,7 @@ const Blog = () => {
 
   return (
     <div>
-      <h2>Blog</h2>
+      <h2>Mon Blog</h2>
 
       {JSON.stringify(data)}
       <Card />

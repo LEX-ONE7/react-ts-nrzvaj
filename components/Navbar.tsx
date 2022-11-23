@@ -18,14 +18,14 @@ const Navbar = () => (
       </button>
 
       <div
-        className="offcanvas offcanvas-end text-bg-dark"
+        className="offcanvas offcanvas-end text-bg-dark text-center"
         tabIndex="-1"
         id="offcanvasDarkNavbar"
         aria-labelledby="offcanvasDarkNavbarLabel"
       >
         <div className="offcanvas-header">
           <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
-            Dark offcanvas
+            Welcome
           </h5>
 
           <button
@@ -56,21 +56,21 @@ const Navbar = () => (
                 My Projects{' '}
               </a>
 
-              <ul className="dropdown-menu dropdown-menu-dark">
+              <ul className="dropdown-menu dropdown-menu-dark text-center">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Portfolio
+                    Mon Portfolio
                   </a>
                 </li>
 
                 <li>
                   <a className="dropdown-item" href="#">
-                    Blog
+                    Mon Blog
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Netflix
+                    Netflix 2
                   </a>
                 </li>
 

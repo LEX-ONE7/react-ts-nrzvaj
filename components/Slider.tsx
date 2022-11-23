@@ -48,7 +48,32 @@ const Slider = () => {
 
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            PORTFOLIO
+            Mon Portfolio
+          </div>
+
+          <div className="subtitle" data-swiper-parallax="-200">
+            Subtitle
+          </div>
+
+          <div className="text" data-swiper-parallax="-100">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+            </p>
+          </div>
+          <a className="btn btn-info" href="#Portfolio">
+            Lien vers mon portfolio
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="title" data-swiper-parallax="-300">
+            Mon Blog
           </div>
 
           <div className="subtitle" data-swiper-parallax="-200">
@@ -70,29 +95,7 @@ const Slider = () => {
 
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            BLOG
-          </div>
-
-          <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
-          </div>
-
-          <div className="text" data-swiper-parallax="-100">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-            </p>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="title" data-swiper-parallax="-300">
-            NETFLIX
+            Netflix II
           </div>
 
           <div className="subtitle" data-swiper-parallax="-200">

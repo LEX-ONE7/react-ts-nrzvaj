@@ -66,7 +66,7 @@ const Slider = () => {
               tincidunt ut libero. Aenean feugiat non eros quis feugiat.
             </p>
           </div>
-          <a className="btn btn-info" href="#Portfolio">
+          <a className="btn btn-info" href="/pages/Portfolio">
             Lien vers mon portfolio
           </a>
         </SwiperSlide>

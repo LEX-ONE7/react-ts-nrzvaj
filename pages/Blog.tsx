@@ -59,11 +59,28 @@ const Blog = () => {
   return (
     <div>
       <Navbar />
-      <h2>Mon Blog</h2>
 
-      {JSON.stringify(data)}
-      <Card />
-      <Card />
+      <div className="container">
+        <div className="row"></div>
+      </div>
+
+      <div className="container bg-info">
+        <div className="text-center my-5">
+          <h1>Le Dev</h1>
+          <hr />
+        </div>
+
+        <div className="row">
+          {data &&
+            data.map((card) => (
+              <Card
+                title={card.title}
+                description={card.description}
+                image={card.image}
+              />
+            ))}
+        </div>
+      </div>
     </div>
   );
 };

@@ -22,9 +22,6 @@ body {
 
   padding: 0;
 }
-.mySwiper {
-  height: 100vh;
-}
 
 .swiper {
   width: 100%;
@@ -44,6 +41,10 @@ body {
   box-sizing: border-box;
 
   padding: 40px 60px;
+}
+
+.mySwiper {
+  height: 100vh;
 }
 
 .parallax-bg {

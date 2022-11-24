@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Slider from './components/Slider';
-import '.style.css';
+import './src/styles.css';
 
 export default function App() {
   return (

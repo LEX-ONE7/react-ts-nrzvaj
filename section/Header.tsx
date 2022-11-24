@@ -1,5 +1,5 @@
 import * as React from 'react';
-const header = () => {
+const Header = () => {
   return (
     <section id="home">
       <div className="container mb-5">

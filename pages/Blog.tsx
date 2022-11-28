@@ -6,7 +6,7 @@ const myData = [
   {
     title: " La Création d'un site WEB ",
     description:
-      'Initiation aux différents langages : Html, Css, Javascript.<br> Codage avec un édtieur de textes (codesanbox), affichage sur un navigateur...',
+      'Initiation aux différents langages : HTML, CSS, Javascript.<br> Codage avec un édtieur de textes (codesanbox), affichage sur un navigateur...',
     date: ' Lundi 14 Novembre ',
     image:
       'https://pic.clubic.com/v1/images/1709696/raw?width=1200&fit=max&hash=b66a110eab5bfb759d547630534eb1be823a7b82',
